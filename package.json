@@ -1,0 +1,16 @@
+{
+  "name": "saver",
+  "version": "1.0.0",
+  "description": "save the bybit ticks in mongo db",
+  "main": "ticksaver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alaherus",
+  "license": "ISC",
+  "dependencies": {
+    "bybit-api": "^3.7.1",
+    "mongodb": "^5.7.0",
+    "mongodb-core": "^3.2.7"
+  }
+}
